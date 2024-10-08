@@ -2,6 +2,12 @@
   "compilerOptions": {
     "strict": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
-  }
+    "jsxImportSource": "hono/jsx",
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "WebWorker"],
+    "moduleResolution": "bundler"
+  },
+  "include": ["./"],
+  "exclude": ["node_modules"]
 }
